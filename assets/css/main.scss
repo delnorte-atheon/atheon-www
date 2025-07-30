@@ -12,15 +12,15 @@ search: false
 // Fonts
 body,
 .page__content,
-.entry,
-pre {
+.entry {
     font-size: 18px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
-code {
-    font-size: 18px;
+code, pre{
+    font-size: 16px;
     font-family: 'Atkinson Hyperlegible Mono', monospace;
+    line-height: 1.5;
 }
 
 h1 {
